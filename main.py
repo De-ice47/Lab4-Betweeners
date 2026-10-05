@@ -14,6 +14,8 @@ AGE_PROMPT = "Please enter an age --> "
 def main():
     user_age = int(input(AGE_PROMPT))
 
+    print("--- Part 1: given ---")
+    print("--- Part 1: yours ---")
     if user_age >= LOW_AGE and user_age < HIGH_AGE:
         print("BETWEENER")
 
